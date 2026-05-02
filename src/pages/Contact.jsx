@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-import { Mail, MessageCircle, MapPin, Send } from "lucide-react"
+import { Mail, MapPin, Send } from "lucide-react"
 
 function Contact() {
     return (
@@ -32,17 +32,6 @@ function Contact() {
                                 <h3 className="text-white font-medium mb-1">Email</h3>
                                 <p className="text-gray-400 text-sm">ggabrielmercy@gmail.com</p>
                                 <a href="mailto:ggabrielmercy@gmail.com" className="text-blue-500 text-sm hover:underline mt-1 inline-block">Send a message</a>
-                            </div>
-                        </div>
-
-                        <div className="flex items-start gap-4">
-                            <div className="p-4 bg-gray-900 border border-gray-800 rounded-xl text-blue-500">
-                                <MessageCircle className="w-6 h-6" />
-                            </div>
-                            <div>
-                                <h3 className="text-white font-medium mb-1">WhatsApp</h3>
-                                <p className="text-gray-400 text-sm">+91 94895 32414</p>
-                                <a href="https://wa.me/919489532414" className="text-blue-500 text-sm hover:underline mt-1 inline-block" target="_blank" rel="noopener noreferrer">Chat with me</a>
                             </div>
                         </div>
 
