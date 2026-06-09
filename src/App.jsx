@@ -3,21 +3,21 @@ import Hero from "./pages/Hero"
 import About from "./pages/About"
 import Skills from "./pages/Skills"
 import Projects from "./pages/Projects"
+import Journey from "./pages/Journey"
 import Contact from "./pages/Contact"
-import Services from "./pages/Services"
-import Trust from "./pages/Trust"
+import Footer from "./components/Footer"
 
 function App() {
   return (
-    <div className="bg-gray-950 min-h-screen text-gray-100 font-sans selection:bg-blue-500 selection:text-white">
+    <div className="bg-[#050505] min-h-screen text-gray-100 font-sans selection:bg-blue-500/30 selection:text-blue-400">
       <Navbar />
       <Hero />
-      <Trust />
       <About />
-      <Services />
       <Skills />
       <Projects />
+      <Journey />
       <Contact />
+      <Footer />
     </div>
   )
 }
